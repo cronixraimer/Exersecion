@@ -1,8 +1,12 @@
-x = input ('Please type your sentence!\n')
+firstname = "Bugs"
+lastname = "Bunny"
 
-y = input('Please write your to find it!\n')
+sequence = (firstname, lastname)
 
-if y in x:
-    print("query find!")
-else
-    
+name = " ".join(sequence)
+print(name)
+
+words = ["how", " are", " you", " ?"]
+sentence = ' '.join(words)
+print(sentence)
+print(name + " " + sentence)
