@@ -6,6 +6,7 @@ with open(filename) as d:
 #print(content)
 
 infile = open(filename, 'r')
+
 data = infile.read()
 infile.close()
 
