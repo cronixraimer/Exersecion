@@ -1,10 +1,16 @@
 
 n = int(input())
-m = 2 * n
-for i in range(m):
+
+for i in range(n):
     a_1 = int(input())
-    for j in range(a_1):
-        a = set(map(int, input().split()))
+    a = set(map(int, input().split()))
+
     b_1 = int(input())
-    for k in range(b_1):
-        b = set(map(int, input().split())
+    b = set(map(int, input().split()))
+
+    check_subset = a.difference(b)
+
+    if len(check_subset) == 0:
+        print("True")
+    else:
+        print("False")
